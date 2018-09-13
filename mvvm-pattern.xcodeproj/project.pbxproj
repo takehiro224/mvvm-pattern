@@ -14,6 +14,9 @@
 		2FFEE870214A162C00DA65DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFEE86E214A162C00DA65DB /* LaunchScreen.storyboard */; };
 		2FFEE87B214A162C00DA65DB /* mvvm_patternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE87A214A162C00DA65DB /* mvvm_patternTests.swift */; };
 		2FFEE886214A162C00DA65DB /* mvvm_patternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE885214A162C00DA65DB /* mvvm_patternUITests.swift */; };
+		2FFEE894214A17D000DA65DB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE893214A17D000DA65DB /* SecondViewController.swift */; };
+		2FFEE896214A2D8300DA65DB /* SlideSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE895214A2D8300DA65DB /* SlideSegue.swift */; };
+		2FFEE898214A2FB000DA65DB /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE897214A2FB000DA65DB /* Animator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		2FFEE881214A162C00DA65DB /* mvvm-patternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvvm-patternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFEE885214A162C00DA65DB /* mvvm_patternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_patternUITests.swift; sourceTree = "<group>"; };
 		2FFEE887214A162C00DA65DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFEE893214A17D000DA65DB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2FFEE895214A2D8300DA65DB /* SlideSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideSegue.swift; sourceTree = "<group>"; };
+		2FFEE897214A2FB000DA65DB /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				2FFEE865214A162800DA65DB /* AppDelegate.swift */,
 				2FFEE867214A162800DA65DB /* ViewController.swift */,
 				2FFEE869214A162800DA65DB /* Main.storyboard */,
+				2FFEE893214A17D000DA65DB /* SecondViewController.swift */,
 				2FFEE86C214A162C00DA65DB /* Assets.xcassets */,
 				2FFEE86E214A162C00DA65DB /* LaunchScreen.storyboard */,
 				2FFEE871214A162C00DA65DB /* Info.plist */,
+				2FFEE895214A2D8300DA65DB /* SlideSegue.swift */,
+				2FFEE897214A2FB000DA65DB /* Animator.swift */,
 			);
 			path = "mvvm-pattern";
 			sourceTree = "<group>";
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFEE898214A2FB000DA65DB /* Animator.swift in Sources */,
+				2FFEE894214A17D000DA65DB /* SecondViewController.swift in Sources */,
+				2FFEE896214A2D8300DA65DB /* SlideSegue.swift in Sources */,
 				2FFEE868214A162800DA65DB /* ViewController.swift in Sources */,
 				2FFEE866214A162800DA65DB /* AppDelegate.swift in Sources */,
 			);
