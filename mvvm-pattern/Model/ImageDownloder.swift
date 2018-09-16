@@ -62,7 +62,24 @@ final class ImageDownloder {
              受け取ったデータからUIImageを生成できなかったら、
              APIError.unknown ErrorをClosureで返す
              */
+            guard let imageFromData  = UIImage(data: d) else {
+                DispatchQueue.main.async {
+                    failure(APIError.unknown)
+                }
+                return
+            }
             
+            /*
+             imageFromDataをClosureで返す
+             */
+            DispatchQueue.main.async {
+                success(imageFromData)
+            }
+            /*
+             画像をキャッシュする
+             */
+            self.cacheImage = imageFromData
         }
+        task.resume()
     }
 }

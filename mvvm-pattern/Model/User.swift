@@ -14,7 +14,7 @@ final class User {
     let iconUrl: String
     let webURL: String
     
-    init( attributes: [String: Any]) {
+    init(attributes: [String: Any]) {
         id = attributes[" id"] as! Int
         name = attributes[" login"] as! String
         iconUrl = attributes[" avatar_ url"] as! String
