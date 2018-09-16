@@ -38,7 +38,7 @@ class SecondViewController: UIViewController {
 // MARK: - UIViewControllerTransitioningDelegate
 extension SecondViewController: UIViewControllerTransitioningDelegate {
     
-    // この画面に遷移する時に呼ばれるメソッド(delegateを使ったら起動しない)
+    // この画面に遷移する時に呼ばれるメソッド(segueを使ったら起動しない)
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         customAnimator.presenting = true
         return customAnimator

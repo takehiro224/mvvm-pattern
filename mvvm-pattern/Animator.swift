@@ -18,7 +18,7 @@ class Animator: NSObject, UIViewControllerAnimatedTransitioning {
      アニメーションの時間（duration）を返します。
      */
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 0.2
+        return 1
     }
     
     /*
@@ -65,12 +65,13 @@ class Animator: NSObject, UIViewControllerAnimatedTransitioning {
     
     // 遷移元に戻るときのアニメーション
     private func dismissAnimation(transitionContext: UIViewControllerContextTransitioning, toView: UIView, fromView: UIView) {
-        
-        let containerView = transitionContext.containerView
-        containerView.insertSubview(toView, aboveSubview: fromView)
+        // containerViewは遷移するときの画面
+        let containerView: UIView = transitionContext.containerView
+//        containerView.insertSubview(toView, aboveSubview: fromView)
+        containerView.insertSubview(toView, belowSubview: fromView)
         
         // 遷移先のViewを画面の右側に移動させておく。
-        toView.frame = CGRect(x: -containerView.frame.width, y: 0, width: toView.frame.size.width, height: toView.frame.height)
+        toView.frame = CGRect(x: -70, y: 0, width: toView.frame.size.width, height: toView.frame.height)
         
         let animations = {() -> Void in
             fromView.frame = CGRect(x: containerView.frame.width, y: 0, width: fromView.frame.width, height: fromView.frame.height)

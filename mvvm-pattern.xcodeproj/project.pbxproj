@@ -17,6 +17,9 @@
 		2FFEE894214A17D000DA65DB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE893214A17D000DA65DB /* SecondViewController.swift */; };
 		2FFEE896214A2D8300DA65DB /* SlideSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE895214A2D8300DA65DB /* SlideSegue.swift */; };
 		2FFEE898214A2FB000DA65DB /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE897214A2FB000DA65DB /* Animator.swift */; };
+		2FFEE89D214B883200DA65DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE89C214B883200DA65DB /* User.swift */; };
+		2FFEE89F214B88AD00DA65DB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE89E214B88AD00DA65DB /* API.swift */; };
+		2FFEE8A1214B9D3B00DA65DB /* ImageDownloder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEE8A0214B9D3B00DA65DB /* ImageDownloder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		2FFEE893214A17D000DA65DB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2FFEE895214A2D8300DA65DB /* SlideSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideSegue.swift; sourceTree = "<group>"; };
 		2FFEE897214A2FB000DA65DB /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		2FFEE89C214B883200DA65DB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2FFEE89E214B88AD00DA65DB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2FFEE8A0214B9D3B00DA65DB /* ImageDownloder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		2FFEE864214A162800DA65DB /* mvvm-pattern */ = {
 			isa = PBXGroup;
 			children = (
+				2FFEE89B214B87A200DA65DB /* ViewController */,
+				2FFEE89A214B877300DA65DB /* ViewModel */,
+				2FFEE899214B876400DA65DB /* Model */,
 				2FFEE865214A162800DA65DB /* AppDelegate.swift */,
 				2FFEE867214A162800DA65DB /* ViewController.swift */,
 				2FFEE869214A162800DA65DB /* Main.storyboard */,
@@ -132,6 +141,30 @@
 				2FFEE887214A162C00DA65DB /* Info.plist */,
 			);
 			path = "mvvm-patternUITests";
+			sourceTree = "<group>";
+		};
+		2FFEE899214B876400DA65DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FFEE89C214B883200DA65DB /* User.swift */,
+				2FFEE89E214B88AD00DA65DB /* API.swift */,
+				2FFEE8A0214B9D3B00DA65DB /* ImageDownloder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FFEE89A214B877300DA65DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2FFEE89B214B87A200DA65DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,11 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFEE8A1214B9D3B00DA65DB /* ImageDownloder.swift in Sources */,
 				2FFEE898214A2FB000DA65DB /* Animator.swift in Sources */,
 				2FFEE894214A17D000DA65DB /* SecondViewController.swift in Sources */,
+				2FFEE89D214B883200DA65DB /* User.swift in Sources */,
 				2FFEE896214A2D8300DA65DB /* SlideSegue.swift in Sources */,
 				2FFEE868214A162800DA65DB /* ViewController.swift in Sources */,
 				2FFEE866214A162800DA65DB /* AppDelegate.swift in Sources */,
+				2FFEE89F214B88AD00DA65DB /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
