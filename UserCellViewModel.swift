@@ -78,7 +78,7 @@ final class UserCellViewModel {
         /*
          grayのUIImageを作成
          */
-        let loadingImage = UIImage()
+        let loadingImage = UIImage(color: .gray, size: CGSize(width: 45, height: 45))!
         
         /*
          .loadingをClosureで返す
