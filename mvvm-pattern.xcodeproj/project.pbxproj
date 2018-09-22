@@ -24,6 +24,7 @@
 		DF28DF6D214E9C5700B27814 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF6C214E9C5700B27814 /* UserCellViewModel.swift */; };
 		DF28DF70214F90FE00B27814 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF28DF6F214F90FE00B27814 /* Extension.swift */; };
 		DFDBD818215386A100CFD247 /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDBD817215386A100CFD247 /* TimeLineCell.swift */; };
+		DFDBD81A2156169800CFD247 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDBD8192156169800CFD247 /* TimeLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		DF28DF6C214E9C5700B27814 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = SOURCE_ROOT; };
 		DF28DF6F214F90FE00B27814 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		DFDBD817215386A100CFD247 /* TimeLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
+		DFDBD8192156169800CFD247 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimeLineViewController.swift; path = "mvvm-pattern/View/TimeLineViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		2FFEE89B214B87A200DA65DB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DFDBD8192156169800CFD247 /* TimeLineViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				2FFEE8A1214B9D3B00DA65DB /* ImageDownloder.swift in Sources */,
 				DF28DF6D214E9C5700B27814 /* UserCellViewModel.swift in Sources */,
 				2FFEE898214A2FB000DA65DB /* Animator.swift in Sources */,
+				DFDBD81A2156169800CFD247 /* TimeLineViewController.swift in Sources */,
 				2FFEE894214A17D000DA65DB /* SecondViewController.swift in Sources */,
 				DFDBD818215386A100CFD247 /* TimeLineCell.swift in Sources */,
 				DF28DF70214F90FE00B27814 /* Extension.swift in Sources */,
